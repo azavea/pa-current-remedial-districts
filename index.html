@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>congressional districts</title>
+  <link rel='stylesheet prefetch' href='https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button type="button" class="button" id="current">Current PA Plan</button>
+  <button type="button" class="button" id="remedial">Remedial PA Plan</button>
+  <h2 id="label">Current</h3>
+
+  <div class="container">
+
+    <table id="dt-table" class="display">
+      <thead>
+        <tr>
+          <th>district</th>
+          <th>trumpp</th>
+          <th>clintonp</th>
+          <th>toomeyp</th>
+          <th>mcgintyp</th>
+          <th>clintonper</th>
+          <th>trumpperc</th>
+          <th>clintdiff</th>
+        </tr>
+        <tbody>
+        </tbody>
+      </table>
+      <!-- <table id="dt-table" class="display" width="100%"></table> -->
+      <div id="chart"></div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js'></script>
+    <script src='https://code.highcharts.com/highcharts.js'></script>
+    <script src='https://code.highcharts.com/modules/no-data-to-display.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.js'></script>
+    <script  src="js/data.js"></script>
+    <script  src="js/index.js"></script>
+
+  </body>
+
+  </html>
